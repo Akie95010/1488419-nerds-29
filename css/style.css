@@ -15,22 +15,69 @@ body {
   line-height: 24px;
   font-weight: 700;
   color: var(--basic-black);
-  text-transform: uppercase;
-  background-color: var(--basic-white);
 
+}
+p {
+  font-size: 16px;
+}
+.contacts {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+}
+.h2 {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+}
+.h3 {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+}
+#slogan{
+font-size: 55px;
 }
 a {
   text-decoration: none;
-  color: var(--basic-black);
+  color: var(--basic-white);
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+
 }
 img {
   max-width: 100%;
   height: auto;
 }
-.main-nav {
+.main-header{
   font-size: 16px;
   line-height: 20px;
-  color: var(---basic-black);
+  color: var(--basic-black);
   list-style: none;
-
+  background-color: var(--basic-neutral);
+}
+.slide-1 {
+  background-color: var(--basic-neutral);
+}
+.page-footer {
+color: var(--basic-black);
+text-transform:none;
+font-weight: normal;
+font-size: 16px;
+}
+#friendship {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 36px;
 }
