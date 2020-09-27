@@ -1,10 +1,18 @@
 :root {
   --basic-black: #000000;
   --basic-neutral:#EEEEEE;
+  --basic-gray:#A6A6A6;
+  --light-gray:#E1E1E1;
   --basic-pink:#FB565A;
+  --dark-pink:#E74246;
+  --extra-dark-pink:#D7373B;
   --basic-green:#00CA74;
-  --basic-white: #ffffff;
+  --dark-green:#00BC6C;
+  --extra-dark-green:#00AA62;
+  --basic-white:#ffffff;
   --basic-yellow:#EFC849;
+  --dark-yellow:#EAB534;
+  --extra-dark-yellow:#E5A722;
 }
 body {
   font-family: "Roboto", Arial, sans-serif;
@@ -18,31 +26,38 @@ body {
 
 }
 p {
-  font-size: 16px;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
 }
 .contacts {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
 }
-.h2 {
-font-family: Roboto;
+
+.about h2 {
+font-style: normal;
+font-weight: 500;
+font-size: 45px;
+line-height: 45px;
+}
+.about h3 {
 font-style: normal;
 font-weight: bold;
-font-size: 24px;
+font-size: 16px;
 line-height: 30px;
 }
-.h3 {
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 30px;
+.page-footer h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
 }
-#slogan{
+.slogan{
 font-size: 55px;
+font-weight: 500;
 }
 a {
   text-decoration: none;
@@ -64,6 +79,7 @@ img {
   color: var(--basic-black);
   list-style: none;
   background-color: var(--basic-neutral);
+  color: var(--basic-black);
 }
 .slide-1 {
   background-color: var(--basic-neutral);
@@ -74,10 +90,97 @@ text-transform:none;
 font-weight: normal;
 font-size: 16px;
 }
-#friendship {
-font-family: Roboto;
+.friendship {
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
 line-height: 36px;
+}
+.main-nav a {
+  color: var(--basic-neutral);
+}
+
+/* User navigation */
+.main-nav a,
+.cash-link a {
+  color: var(--basic-black);
+}
+.main-nav a:hover,
+.cash-link a:hover{
+  color: var(--basic-pink);
+}
+.main-nav a:active,
+.cash-link a:active {
+  color: var(--basic-black);
+  opacity:30%;
+}
+.logo a:active {
+  color: var(--basic-gray);
+}
+.slide-1 {
+  color: var(--basic-white);
+  background-color: var(--basic-pink);
+}
+.slide-1 a:hover {
+  background-color: var(--dark-pink);
+}
+.slide-1 a:active {
+  color: var(--basic-white);
+  opacity:0.3;
+  background-color: var(--extra-dark-pink);
+}
+.feature-item-1 {
+  color: var(--basic-white);
+  background-color: var(--basic-pink);
+}
+.feature-item-1 a:hover {
+  background-color: var(--dark-pink);
+}
+.feature-item-1 a:active {
+  color: var(--basic-white);
+  opacity:0.3;
+  background-color: var(--extra-dark-pink);
+}
+.feature-item-2 {
+  color: var(--basic-white);
+  background-color: var(--basic-green);
+}
+.feature-item-2 a:hover {
+  background-color: var(--dark-green);
+}
+.feature-item-2 a:active {
+  color: var(--basic-white);
+  opacity:0.3;
+  background-color: var(--extra-dark-green);
+}
+.feature-item-3 {
+  color: var(--basic-white);
+  background-color: var(--basic-yellow);
+}
+.feature-item-3 a:hover {
+  background-color: var(--dark-yellow);
+}
+.feature-item-3 a:active {
+  color: var(--basic-white);
+  opacity:0.3;
+  background-color: var(--extra-dark-yellow);
+}
+.partners a {
+  opacity:0.2;
+}
+.partners a:active {
+  opacity:0.3;
+}
+.social a{
+  background-color: var(--light-gray);
+  color: var(--basic-white);
+}
+.social a:hover{
+  background-color: var(--dark-pink);
+  color: var(--basic-white);
+}
+.social a:active{
+  background-color: var(--extra-dark-pink);
+  opacity: 0.3;
+  color: var(--basic-white);
 }
