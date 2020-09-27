@@ -117,7 +117,7 @@ line-height: 36px;
 .logo a:active {
   color: var(--basic-gray);
 }
-.slide-1 {
+.slide-1 a{
   color: var(--basic-white);
   background-color: var(--basic-pink);
 }
@@ -129,7 +129,7 @@ line-height: 36px;
   opacity:0.3;
   background-color: var(--extra-dark-pink);
 }
-.feature-item-1 {
+.feature-item-1 a{
   color: var(--basic-white);
   background-color: var(--basic-pink);
 }
@@ -141,7 +141,7 @@ line-height: 36px;
   opacity:0.3;
   background-color: var(--extra-dark-pink);
 }
-.feature-item-2 {
+.feature-item-2 a{
   color: var(--basic-white);
   background-color: var(--basic-green);
 }
@@ -153,7 +153,7 @@ line-height: 36px;
   opacity:0.3;
   background-color: var(--extra-dark-green);
 }
-.feature-item-3 {
+.feature-item-3 a{
   color: var(--basic-white);
   background-color: var(--basic-yellow);
 }
