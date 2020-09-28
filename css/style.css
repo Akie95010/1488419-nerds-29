@@ -21,22 +21,28 @@ body {
   padding: 0;
   font-size: 14px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
   color: var(--basic-black);
 
 }
-p {
-font-weight: normal;
-font-size: 16px;
-line-height: 24px;
+.feature-item-1 h3,
+.feature-item-2 h3,
+.feature-item-3 h3{
+font-weight: 700;
+font-size: 24px;
 }
 .contacts {
   font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 18px;
-}
 
+}
+.contacts h3 {
+  font-weight: 700;
+}
+.contacts a{
+  color: var(--basic-black);
+}
 .about h2 {
 font-style: normal;
 font-weight: 500;
@@ -45,13 +51,11 @@ line-height: 45px;
 }
 .about h3 {
 font-style: normal;
-font-weight: bold;
 font-size: 16px;
 line-height: 30px;
 }
 .page-footer h3 {
   font-style: normal;
-  font-weight: bold;
   font-size: 18px;
   line-height: 30px;
 }
@@ -64,7 +68,6 @@ a {
   color: var(--basic-white);
   font-size: 16px;
   text-transform: uppercase;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
 
@@ -87,33 +90,52 @@ img {
 .page-footer {
 color: var(--basic-black);
 text-transform:none;
-font-weight: normal;
 font-size: 16px;
 }
 .friendship {
 font-style: normal;
-font-weight: bold;
 font-size: 36px;
 line-height: 36px;
 }
-.main-nav a {
+.friendship p {
+  font-weight: 700;
+}
+.main-nav a{
   color: var(--basic-neutral);
+}
+.cash-link {
+  color: var(--basic-neutral);
+}
+.percents td{
+  font-weight: 700;
 }
 
 /* User navigation */
-.main-nav a,
-.cash-link a {
+.main-nav a{
   color: var(--basic-black);
 }
-.main-nav a:hover,
-.cash-link a:hover{
+.main-nav a:hover{
   color: var(--basic-pink);
 }
-.main-nav a:active,
-.cash-link a:active {
+.main-nav a:active{
   color: var(--basic-black);
   opacity:30%;
 }
+
+
+.cash-link {
+  color: var(--basic-black);
+}
+
+.cash-link:hover{
+  color: var(--basic-pink);
+}
+
+.cash-link:active {
+  color: var(--basic-black);
+  opacity:30%;
+}
+
 .logo a:active {
   color: var(--basic-gray);
 }
@@ -141,7 +163,7 @@ line-height: 36px;
   opacity:0.3;
   background-color: var(--extra-dark-pink);
 }
-.feature-item-2 a{
+.feature-item-2 a {
   color: var(--basic-white);
   background-color: var(--basic-green);
 }
@@ -153,7 +175,7 @@ line-height: 36px;
   opacity:0.3;
   background-color: var(--extra-dark-green);
 }
-.feature-item-3 a{
+.feature-item-3 a {
   color: var(--basic-white);
   background-color: var(--basic-yellow);
 }
@@ -183,4 +205,16 @@ line-height: 36px;
   background-color: var(--extra-dark-pink);
   opacity: 0.3;
   color: var(--basic-white);
+}
+.send a{
+  color: var(--basic-white);
+  background-color: var(--basic-pink);
+}
+.send a:hover {
+  background-color: var(--dark-pink);
+}
+.send a:active {
+  color: var(--basic-white);
+  opacity:0.3;
+  background-color: var(--extra-dark-pink);
 }
