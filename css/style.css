@@ -31,17 +31,13 @@ body {
 font-weight: 700;
 font-size: 24px;
 }
-.contacts {
-  font-style: normal;
-  font-size: 16px;
-  line-height: 18px;
-
-}
-.contacts h3 {
+.about h3 {
   font-weight: 700;
 }
-.contacts a{
+
+.tel {
   color: var(--basic-black);
+  font-weight: 400;
 }
 .about h2 {
 font-style: normal;
@@ -106,8 +102,16 @@ line-height: 36px;
 .cash-link {
   color: var(--basic-neutral);
 }
-.percents td{
+.accuracy {
+font-weight: 700;
+font-size: 16px;
+}
+.table td{
   font-weight: 700;
+  font-size: 45px;
+}
+.table th {
+  font-weight: 400;
 }
 
 /* User navigation */
@@ -206,14 +210,15 @@ line-height: 36px;
   opacity: 0.3;
   color: var(--basic-white);
 }
-.send a{
+.send {
   color: var(--basic-white);
   background-color: var(--basic-pink);
 }
-.send a:hover {
+.send:hover {
   background-color: var(--dark-pink);
+  color: var(--basic-white);
 }
-.send a:active {
+.send:active {
   color: var(--basic-white);
   opacity:0.3;
   background-color: var(--extra-dark-pink);
