@@ -89,13 +89,10 @@ text-transform:none;
 font-size: 16px;
 }
 .friendship {
-font-style: normal;
 font-size: 36px;
-line-height: 36px;
+font-weight: 700;
 }
-.friendship p {
-  font-weight: 700;
-}
+
 .main-nav a{
   color: var(--basic-neutral);
 }
