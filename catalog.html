@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
-    <link href="normalize.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
   <header class="main-header">
@@ -17,9 +18,10 @@
     </nav>
     <a class="cash-link" href="">Корзина</a>
   </header>
-
+  <div class="banner">
     <h1>Магазин готовых шаблонов</h1>
-<section class="filters">
+  </div>
+<div class="filters">
     <p>Стоимость:</p>
     <span>Ползунок</span>
     <span>От 0</span>
@@ -38,7 +40,7 @@
             <li>Галерея</li>
             <li>Корзина</li>
         </ul>
-    <span>Показать</span>
+    <a class="show" href="" >Показать</a>
 </section>
 
 <div class="sorting">
@@ -116,32 +118,32 @@
         </li>
     </ul>
 
-    <ul>
-        <li><a>1</a></li>
+    <ul class="pages">
+        <li><a class="active-page">1</a></li>
         <li><a href="">2</a></li>
         <li><a href="">3</a></li>
-        <li><a href="">Следующая</a></li>
+        <li><a class="next" href="">Следующая</a></li>
     </ul>
 </section>
 
 
-  <footer class="page-footer">
-        <img src="https://via.placeholder.com/150x100" alt="карта">
-      <div class="contacts">
-        <h3>NЁRDS DESIGN STUDIO</h3>
-        <p> 191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-        <a href="tel:+78122757575"> тел. +7 (812) 275-75-75</a>
-        <a href="">Напишите нам</a>
-      </div>
-      <section class="social">
-        <ul>
-          <li> <a href=""><img src="https://via.placeholder.com/150x100" alt="VK"></a></li>
-          <li> <a href=""><img src="https://via.placeholder.com/150x100" alt="Facebook"></a></li>
-          <li> <a href=""><img src="https://via.placeholder.com/150x100" alt="Instagram"></a></li>
-        </ul>
-        <P id="friendship"><b>Давайте дружить, это выгодно!</b></P>
-      <span>Скидка 10% для друзей из социальных сетей.</span>
-      </section>
-    </footer>
+<footer class="page-footer">
+  <img src="https://via.placeholder.com/150x100" alt="карта">
+  <div class="contacts">
+    <h3>NЁRDS DESIGN STUDIO</h3>
+    <p> 191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+    <a class="tel" href="tel:+78122757575"> тел. +7 (812) 275-75-75</a>
+    <a class="send" href="">Напишите нам</a>
+  </div>
+  <section class="social">
+    <ul>
+      <li> <a href=""><img src="https://via.placeholder.com/150x100" alt="VK"></a></li>
+      <li> <a href=""><img src="https://via.placeholder.com/150x100" alt="Facebook"></a></li>
+      <li> <a href=""><img src="https://via.placeholder.com/150x100" alt="Instagram"></a></li>
+    </ul>
+    <P class="friendship">Давайте дружить, это выгодно!</P>
+    <span>Скидка 10% для друзей из социальных сетей.</span>
+  </section>
+</footer>
   </body>
 </html>
