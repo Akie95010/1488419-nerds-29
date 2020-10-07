@@ -5,6 +5,7 @@
   --light-gray:#E1E1E1;
   --middle-gray:#DFDFDF;
   --dark-gray:#D5D5D5;
+  --border-gray:#DBDBDB;
   --enough-dark-gray:#4D4D4D;
   --extra-dark-gray:#283136;
   --basic-pink:#FB565A;
@@ -92,6 +93,16 @@ color: var(--basic-black);
 text-transform:none;
 font-size: 16px;
 }
+
+.filters p {
+  font-size: 18px;
+  font-weight: 700;
+}
+.filters span {
+  font-size: 16px;
+  font-weight: 400;
+}
+
 .friendship {
 font-size: 36px;
 font-weight: 700;
@@ -224,7 +235,9 @@ font-size: 16px;
   opacity:0.3;
   background-color: var(--extra-dark-pink);
 }
-/* catalog */
+
+
+
 .banner h1{
   color: var(--basic-black);
   background-color: var(--basic-neutral);
@@ -232,14 +245,7 @@ font-size: 16px;
   font-weight: 500;
   line-height: 55px;
 }
-.filters p {
-  font-size: 18px;
-  font-weight: 700;
-}
-.filters span {
-  font-size: 16px;
-  font-weight: 400;
-}
+
 .show {
   font-size: 16px;
   font-weight: 500;
@@ -292,9 +298,23 @@ font-size: 16px;
   background-color: var(--dark-gray);
   color: var(--basic-black);
   opacity:30%;
+  box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+}
+
+.pages .active-page {
+  background-color: var(--basic-white);
+  color: var(--basic-black);
+  border-width:3px;
+  border-style: solid;
+  border-color: var(--border-gray);
 }
 
 
+
+.sorting {
+font-weight: 400;
+font-size: 14px;
+}
 .sorting a{
   color: var(--basic-black);
   opacity:30%;
@@ -306,10 +326,4 @@ font-size: 16px;
 .sorting a:active{
   color: var(--basic-black);
   opacity:100%;
-}
-.active-page {
-  color: var(--basic-black);
-  border-width:3px;
-  border-style: solid;
-  border-color: var(--basic-neutral);
 }
