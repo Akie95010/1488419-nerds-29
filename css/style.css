@@ -318,12 +318,18 @@ font-size: 14px;
 .sorting a{
   color: var(--basic-black);
   opacity:30%;
+  font-size: 14px;
+  font-weight: 400;
 }
 .sorting a:hover{
   color: var(--basic-black);
   opacity:60%;
+  font-size: 14px;
+  font-weight: 400;
 }
 .sorting a:active{
   color: var(--basic-black);
   opacity:100%;
+  font-size: 14px;
+  font-weight: 400;
 }
