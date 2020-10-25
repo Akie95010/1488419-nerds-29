@@ -333,3 +333,39 @@ font-size: 14px;
   font-size: 14px;
   font-weight: 400;
 }
+
+.slide-2, .slide-3{
+  display:none;
+}
+
+/* grid */
+.page {
+  height:100%;
+}
+.page-body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+}
+
+.main-header {
+  display: grid;
+  grid-template-columns: 160px auto max-content;
+}
+.social {
+  display: grid;
+  grid-template-columns: 260px auto;
+}
+.features {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 650px 360px;
+}
+.partners {
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+}
