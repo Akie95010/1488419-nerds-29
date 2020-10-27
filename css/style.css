@@ -369,3 +369,24 @@ font-size: 14px;
   display: grid;
   grid-template-columns:1fr 1fr 1fr 1fr;
 }
+.all-filters {
+  display: grid;
+  grid-template-columns:260px 760px;
+}
+.portfolio ul{
+  display: grid;
+  grid-template-columns:360px 360px;
+  grid-template-rows:580px 580px 580px;
+}
+.portfolio-navigation ul{
+  display: grid;
+  grid-template-columns: 50px 50px 50px 260px;
+}
+.main-header {
+  width: 1200px;
+  margin: 0 auto;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
