@@ -85,6 +85,7 @@ img {
   background-color: var(--basic-neutral);
   color: var(--basic-black);
 }
+
 .slide-1 {
   background-color: var(--basic-neutral);
 }
@@ -360,6 +361,7 @@ font-size: 14px;
 }
 .promo {
   width: 100%;
+  background-color: var(--basic-neutral);
 }
 
 .slide-1 {
@@ -368,8 +370,14 @@ font-size: 14px;
   grid-template-columns: 400px 760px;
   grid-template-rows: auto;
   margin: 0 auto;
-}
 
+}
+.slide-1 h3 {
+  line-height: 1;
+}
+.slide-1 p {
+  line-height: 2;
+}
 .control {
   display: center;
 }
@@ -382,18 +390,24 @@ font-size: 14px;
   display: grid;
   grid-template-columns: 260px auto;
 }
-.container{
 
-}
 .features {
   display: grid;
   width: 1200px;
   grid-template-columns: 300px 300px 300px;
+  margin: 0 auto;
 }
+
 .wrapper {
+
+}
+.container{
   display: grid;
   grid-template-columns: 650px 360px;
+  width: 1200px;
+  margin: 0 auto ;
 }
+
 .partners {
   display: grid;
   grid-template-columns:1fr 1fr 1fr 1fr;
