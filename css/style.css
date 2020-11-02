@@ -398,23 +398,26 @@ font-size: 14px;
   margin: 0 auto;
 }
 
-.wrapper {
-
-}
 .container{
   display: grid;
   grid-template-columns: 650px 360px;
   width: 1200px;
   margin: 0 auto ;
 }
+.sorting {
+  display: grid;
 
+  width: 1200px;
+  margin: 0 auto ;
+}
 .partners {
   display: grid;
   grid-template-columns:1fr 1fr 1fr 1fr;
 }
 .all-filters {
+  width: 1200px;
+  margin: 0 auto ;
   display: grid;
-  grid-template-columns:260px 760px;
 }
 .portfolio ul{
   display: grid;
@@ -424,4 +427,14 @@ font-size: 14px;
 .portfolio-navigation ul{
   display: grid;
   grid-template-columns: 50px 50px 50px 260px;
+}
+.banner {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.content-catalog {
+  width: 1200px;
+  margin: 0 auto ;
+  display: grid;
+  grid-template-columns:260px 760px;
 }
