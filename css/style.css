@@ -382,8 +382,14 @@ font-size: 14px;
   display: center;
 }
 
-.page-footer {
+.map-container {
   width: 100%;
+}
+
+.page-footer {
+  display: grid;
+  width: 1200px;
+  margin: 0 auto ;
 }
 
 .social {
@@ -439,4 +445,9 @@ font-size: 14px;
   margin: 0 auto ;
   display: grid;
   grid-template-columns:260px 760px;
+}
+.footer-container {
+  width: 1200px;
+  margin: 0 auto ;
+  display: grid;
 }
