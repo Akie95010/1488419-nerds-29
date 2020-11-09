@@ -392,10 +392,7 @@ font-size: 14px;
   margin: 0 auto ;
 }
 
-.social {
-  display: grid;
-  grid-template-columns: 260px auto;
-}
+
 
 .features {
   display: grid;
@@ -449,5 +446,46 @@ font-size: 14px;
 .footer-container {
   width: 1200px;
   margin: 0 auto ;
+}
+
+.social {
   display: grid;
+  grid-template-columns: 260px auto;
+}
+.social ul {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  outline: 1px solid red;
+  justify-content: space-around;
+  justify-content: start;
+}
+.social a {
+  display: block;
+  width: 81px;
+  height: 81px;
+}
+.VK {
+  background-image: url(../img/vk-icon.png);
+  background-color: var(--basic-gray);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+  background-position:center;
+}
+.Facebook {
+  background-image: url(../img/fb-icon.png);
+  background-color: var(--basic-gray);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+  background-position:center;
+}
+.Instagram {
+  background-image: url(../img/insta-icon.png);
+  background-color: var(--basic-gray);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+  background-position:center;
 }
