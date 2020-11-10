@@ -210,19 +210,7 @@ font-size: 16px;
 .partners a:active {
   opacity:0.3;
 }
-.social a{
-  background-color: var(--light-gray);
-  color: var(--basic-white);
-}
-.social a:hover{
-  background-color: var(--dark-pink);
-  color: var(--basic-white);
-}
-.social a:active{
-  background-color: var(--extra-dark-pink);
-  opacity: 0.3;
-  color: var(--basic-white);
-}
+
 .send {
   color: var(--basic-white);
   background-color: var(--basic-pink);
@@ -452,40 +440,53 @@ font-size: 14px;
   display: grid;
   grid-template-columns: 260px auto;
 }
+.social a{
+  background-color: var(--light-gray);
+  color: var(--basic-white);
+  display: block;
+  width: 81px;
+  height: 81px;
+  background-repeat: no-repeat;
+  background-size: 30px contain;
+  border-radius: 50%;
+  background-position:center;
+}
+.social a:hover{
+  background-color: var(--dark-pink);
+  color: var(--basic-white);
+}
+.social a:active{
+  background-color: var(--extra-dark-pink);
+  opacity: 0.3;
+  color: var(--basic-white);
+}
 .social ul {
   margin: 0;
   list-style: none;
   display: flex;
-  outline: 1px solid red;
   justify-content: space-around;
   justify-content: start;
+  padding: 0;
+  padding-top: 20px;
+
 }
-.social a {
-  display: block;
-  width: 81px;
-  height: 81px;
+.social li {
+  padding-right: 5px;
+  padding-left: 5px;
 }
-.VK {
+.vk {
   background-image: url(../img/vk-icon.png);
   background-color: var(--basic-gray);
-  background-repeat: no-repeat;
-  background-size: contain;
-  border-radius: 50%;
-  background-position:center;
+
+
 }
-.Facebook {
+.facebook {
   background-image: url(../img/fb-icon.png);
   background-color: var(--basic-gray);
-  background-repeat: no-repeat;
-  background-size: contain;
-  border-radius: 50%;
-  background-position:center;
+
 }
-.Instagram {
+.instagram {
   background-image: url(../img/insta-icon.png);
   background-color: var(--basic-gray);
-  background-repeat: no-repeat;
-  background-size: contain;
-  border-radius: 50%;
-  background-position:center;
+
 }
