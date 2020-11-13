@@ -490,3 +490,21 @@ font-size: 14px;
   background-color: var(--basic-gray);
 
 }
+.sorting-1 ul {
+  display: flex;
+  font-size: 0;
+  padding: 10px;
+}
+.sorting-1 li {
+  padding: 10px;
+}
+.small-to-big {
+}
+.big-to-small {
+  border: 10px solid #ffffff;
+  border-top-color: #231F20;
+  border-bottom-width: 0px;
+  border-right-color: transparent;
+  border-left-color: transparent;
+
+}
