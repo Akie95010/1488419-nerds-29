@@ -77,13 +77,28 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 .main-header{
+  display:flex;
   font-size: 16px;
   line-height: 20px;
   color: var(--basic-black);
   list-style: none;
   background-color: var(--basic-neutral);
   color: var(--basic-black);
+  justify-content: space-between;
+}
+.main-nav {
+  padding-top: 75px;
+}
+.cash-link {
+  padding-top: 75px;
+}
+.logo {
+  padding-top: 28px;
+}
+.logo a:active {
+  color: var(--basic-gray);
 }
 
 .slide-1 {
@@ -153,9 +168,6 @@ font-size: 16px;
   opacity:30%;
 }
 
-.logo a:active {
-  color: var(--basic-gray);
-}
 .slide-1 a{
   color: var(--basic-white);
   background-color: var(--basic-pink);
